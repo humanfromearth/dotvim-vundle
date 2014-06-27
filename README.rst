@@ -9,4 +9,3 @@ Install
 To install use make::
 
     make
-    vim +PluginInstall +qall
