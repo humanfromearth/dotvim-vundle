@@ -14,6 +14,8 @@ Plugin 'altercation/vim-colors-solarized'
 Plugin 'fholgado/minibufexpl.vim'
 Plugin 'Townk/vim-autoclose'
 Plugin 'wavded/vim-stylus'
+Plugin 'Lokaltog/vim-easymotion'
+
 
 " vim-snipmate deps
 Plugin 'tomtom/tlib_vim'
@@ -159,3 +161,6 @@ set t_Sf=^[3%dm
 
 " Golang stuff
 au BufWritePost *.go Fmt
+
+" Easy motion
+map <Leader> <Plug>(easymotion-prefix)
