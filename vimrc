@@ -8,13 +8,19 @@ call vundle#begin()
 
 Plugin 'kien/ctrlp.vim'
 Plugin 'scrooloose/nerdtree'
-Plugin 'nsf/gocode'
 Plugin 'scrooloose/syntastic'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'fholgado/minibufexpl.vim'
 Plugin 'Townk/vim-autoclose'
-Plugin 'wavded/vim-stylus'
 Plugin 'Lokaltog/vim-easymotion'
+
+" Languages 
+Plugin 'klen/python-mode'
+Plugin 'pangloss/vim-javascript'
+Plugin 'groenewege/vim-less'
+Plugin 'wavded/vim-stylus'
+Plugin 'nsf/gocode'
+Plugin 'matchit.zip'
 
 
 " vim-snipmate deps
@@ -164,3 +170,6 @@ au BufWritePost *.go Fmt
 
 " Easy motion
 map <Leader> <Plug>(easymotion-prefix)
+
+" python-mode
+let g:pymode_folding = 0
