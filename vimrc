@@ -27,6 +27,7 @@ Plugin 'matchit.zip'
 Plugin 'tomtom/tlib_vim'
 Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'garbas/vim-snipmate'
+Plugin 'honza/vim-snippets'
 
 " Color schemes
 Plugin 'phd'
@@ -173,3 +174,4 @@ map <Leader> <Plug>(easymotion-prefix)
 
 " python-mode
 let g:pymode_folding = 0
+let g:pymode_trim_whitespaces = 0
